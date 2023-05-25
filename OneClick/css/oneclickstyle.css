@@ -1,0 +1,112 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+.nav {
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(126, 124, 124);
+    width: 800px;
+    height: 60px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: space-around;   
+}
+.login{
+    width: 60px;
+    height: 25px;
+    background-color: rgb(109, 182, 250);
+    color: aliceblue;
+    box-shadow: 3px 3px black;
+}
+.search{
+    width: 280px;
+}
+.nav-title { 
+    color: aliceblue;
+    margin-block-start: 0%;
+    margin-block-end: 0%;    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.user{
+    padding: 20px;
+
+}
+.ninja{
+    display: flex;
+    flex-direction: row;
+    border: 2px gray;
+    width: 510px;
+    height: 200px;
+    border: 2px solid rgb(199, 194, 194);
+    
+}
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+    line-height: 1.5;
+    
+
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 2;
+}
+main{
+    margin-bottom: 15px;
+
+}
+.ninja2{
+    display: flex;
+    flex-direction: row;
+    border: 2px gray;
+    width: 510px;
+    height: 200px;
+    border: 2px solid rgb(199, 194, 194);
+}
+
+.request{
+    display: flex;
+    flex-direction:column;
+    justify-content: center; 
+    width: 240px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid rgb(199, 194, 194); 
+    margin-right: 100px;
+    
+}
+.add {
+    margin: 12px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(49, 195, 146);
+    box-shadow: 3px 3px black;
+
+}
+.pluslike{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(240, 250, 94);
+    box-shadow: 3px 3px black;
+}
+
+.link{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.cursiva{
+    font-style: italic;
+}
